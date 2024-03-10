@@ -8,7 +8,7 @@ import TrendingScreen from './pages/TrendingScreen'
 
 export default function App() {
   return (
-    <ChakraProvider>
+
       <BrowserRouter>
         <Routes>
           <Route path='/' element={<HomeScreen />} />
@@ -18,6 +18,6 @@ export default function App() {
           <Route path='/welcome-screen' element={<TrendingScreen />} />
         </Routes>
       </BrowserRouter>
-    </ChakraProvider>
+
   )
 }
