@@ -9,7 +9,7 @@ export default function HomeBanner() {
     return (
         <Box
             width={'100%'}
-            height={'400px'}
+            height={'300px'}
             backgroundImage={`url(${HomeBannerImg})`}
             bgSize={'cover'}
             bgPosition={'center'}
@@ -48,7 +48,7 @@ export default function HomeBanner() {
                 display={'flex'}
                 justifyContent={'end'}
                 alignItems={'end'}
-                height={'300px'}
+                height={'200px'}
             >
                 <Box
                     width={'100%'}
