@@ -74,7 +74,18 @@ export default function HomeBanner() {
                         alignItems={'center'}
                         gap={3}
                     >
-                        <Button mt={4} backgroundColor={'#6100C2'} color={'#FFF'}>Watch Now</Button>
+                        <Button
+                            mt={4}
+                            backgroundColor={'#6100C2'}
+                            color={'#FFF'}
+                            _hover={{
+                                backgroundColor: 'transparent',
+                                color: '#FFF',
+                                border: '1px solid #FFF'
+                            }}
+                        >
+                            Watch Now
+                        </Button>
                         <IconButton mt={4}>
                             <CiHeart />
                         </IconButton>
